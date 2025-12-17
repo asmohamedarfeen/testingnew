@@ -9,7 +9,7 @@ while n<10:
     file.write(str(random_number))
     file.close()
     # Stage and commit the changes
-    subprocess.run(['git', 'add','1.py','eng.txt'])
+    subprocess.run(['git', 'add','eng.txt'])
     subprocess.run(['git', 'commit', '-m', 'Add random number generator and output file'])
     subprocess.run(['git', 'push'])
     n=n+1
