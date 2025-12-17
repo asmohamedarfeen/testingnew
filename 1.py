@@ -5,7 +5,7 @@ n=0
 random_number = random.randint(10000000, 99999999)
 while n<10:
 # Write to eng.txt
-    file = open('eng.txt', 'w')
+    file = open('//Users//asmohamedarfeen//Desktop//classnotes//new//eng.txt', 'w')
     file.write(str(random_number))
     file.close()
     # Stage and commit the changes
