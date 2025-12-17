@@ -2,9 +2,9 @@ import random
 import subprocess
 n=0
 # Generate an 8-digit random number
-random_number = random.randint(10000000, 99999999)
 while n<10:
 # Write to eng.txt
+    random_number = random.randint(10000000, 99999999)
     file = open('//Users//asmohamedarfeen//Desktop//classnotes//new//eng.txt', 'w')
     file.write(str(random_number))
     file.close()
